@@ -1,4 +1,5 @@
-describe App do
+require 'spec_helper'
+describe 'App' do
 
   describe 'GET /newteam' do
     it 'sends a 200 status code' do
